@@ -1,0 +1,60 @@
+body:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/signupBG.jpg') no-repeat;
+    filter: blur(5px);
+    z-index: -1;
+    background-size: cover;
+}
+
+form{
+    width: 35%;
+    position: relative;
+    margin: 0 auto;
+}
+
+#heading{
+    padding-top: 40px;
+}
+#heading-text{
+    color: snow;
+    font-weight: bold;
+    font-size: 50px;
+}
+#submit-btn{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #4ac54e;
+    color: #ffffff;
+}
+#submit-btn:hover{
+    background-color: rgba(74, 197,78, 0.8);
+    outline: none;
+    border: none;
+    color: #000000;
+}
+.g-recaptcha {
+    padding-bottom: 25px;;
+}
+#logo-img{
+    width: 260px;
+}
+.input-group-text{
+    background-color: #4ac54e;
+    width: 50px;
+}
+#go-login{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 25px;
+    color:#ffffff;
+}
+
+#go-login:hover{
+    color:silver;
+}
