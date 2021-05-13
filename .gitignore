@@ -1,3 +1,4 @@
 .idea
 MANIFEST.MF
-Test02.iml
+target/Test02-1.0-SNAPSHOT/META-INF/MANIFEST.MF
+target/Test02-1.0-SNAPSHOT.war

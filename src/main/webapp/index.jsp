@@ -24,6 +24,9 @@
         <div id="scroll-animate-main">
             <div class="wrapper-parallax">
                 <header>
+                    <p class="h1">
+                        <img src="..." class="rounded float-start" alt="logo">
+                    </p>
                     <h1 class="display-1">Display 1</h1>
                     <p class="h2">h2. Bootstrap heading</p>
                 </header>
@@ -31,11 +34,20 @@
                 <section class="content">
                     <h1 class="display-1">Display 1</h1>
                     <p class="h2">h2. Bootstrap heading</p>
+                    <p class="h2">
+                        <a class="btn" href="#" role="button" target="_self">立刻进入</a>
+                    </p>
                 </section>
 
                 <footer>
-                    <h1 class="display-1">Display 1</h1>
-                    <p class="h2">h2. Bootstrap heading</p>
+                    <p class="h4">
+                        <span class="badge bg-light text-dark">@2021NongYuan</span>
+                        <span class="badge bg-light text-dark">备案号</span>
+                        <a href="https://github.com/JULNULUN/FramTest">
+                            <span class="badge bg-secondary">@Github</span>
+                        </a>
+                        <span class="badge bg-light text-dark">@HNIE NongYuan Team</span>
+                    </p>
                 </footer>
             </div>
         </div>
